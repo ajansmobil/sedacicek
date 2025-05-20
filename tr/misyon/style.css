@@ -1,5 +1,5 @@
 
-  .wbokj {
+  .lpysi {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .wbokjtitle {
+  .lpysititle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .wbokjtitlebody {
+  .lpysititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wbokjtitlebodytitle {
+  .lpysititlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wbokjtitlebodylang {
+  .lpysititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wbokjtitlebodylang ul {
+  .lpysititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .wbokjbody {
+  .lpysibody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .wbokjmenu {
+  .lpysimenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .wbokjmenulist {
+  .lpysimenulist {
     width: calc(100% - 20px);
     background-color: #d2b467;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .wbokjmenubody {
+  .lpysimenubody {
     width: 100%;
     background-color: #d2b467;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .wbokjmenulist ul {
+  .lpysimenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .wbokjmenulist ul a {
+  .lpysimenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .wbokjmenulist ul a:hover {
+  .lpysimenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .wbokjmenulistactive {
+  .lpysimenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .wbokjmenulistbody {
+  .lpysimenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .wbokjbodylogo {
+    .lpysibodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .wbokjmenu {
+    .lpysimenu {
       overflow-x: auto;
     }
 
-    .wbokjmenulist ul {
+    .lpysimenulist ul {
       flex-direction: row;
     }
 
-    .wbokjbodylogo {
+    .lpysibodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,8 +137,92 @@
   }
 
   @media screen and (max-width: 768px) {
-    .wbokjmenulist ul a {
+    .lpysimenulist ul a {
       font-size: 14px;
+    }
+  }
+
+
+  #content {
+    justify-content: start;
+  }
+  .m4gfk {
+    display: flex;
+    width: var(--max);
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .m4gfk-menu {
+    width: 220px;
+    background-color: --menubgcolor--;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .m4gfk-menu > a {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .m4gfk-menu > a:hover,
+  .m4gfk-menu > .active {
+    background-color: #1e3046;
+    color: #fff;
+  }
+  .m4gfk-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .m4gfk-title {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .m4gfk-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/page/misyon/bg/{{bgimg}}");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  .m4gfk-title span {
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+  }
+  @media screen and (max-width: 1024px) {
+    .m4gfk {
+      flex-direction: column;
+      width: calc(100% - 10px);
+      padding: 5px;
+    }
+    .m4gfk-menu {
+      display: none;
+    }
+    .m4gfk-body {
+      width: 100%;
     }
   }
 

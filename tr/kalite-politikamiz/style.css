@@ -1,5 +1,5 @@
 
-  .kclu3 {
+  .wgnj6 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .kclu3title {
+  .wgnj6title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .kclu3titlebody {
+  .wgnj6titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .kclu3titlebodytitle {
+  .wgnj6titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .kclu3titlebodylang {
+  .wgnj6titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .kclu3titlebodylang ul {
+  .wgnj6titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .kclu3body {
+  .wgnj6body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .kclu3menu {
+  .wgnj6menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .kclu3menulist {
+  .wgnj6menulist {
     width: calc(100% - 20px);
     background-color: #d2b467;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .kclu3menubody {
+  .wgnj6menubody {
     width: 100%;
     background-color: #d2b467;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .kclu3menulist ul {
+  .wgnj6menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .kclu3menulist ul a {
+  .wgnj6menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .kclu3menulist ul a:hover {
+  .wgnj6menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .kclu3menulistactive {
+  .wgnj6menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .kclu3menulistbody {
+  .wgnj6menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .kclu3bodylogo {
+    .wgnj6bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .kclu3menu {
+    .wgnj6menu {
       overflow-x: auto;
     }
 
-    .kclu3menulist ul {
+    .wgnj6menulist ul {
       flex-direction: row;
     }
 
-    .kclu3bodylogo {
+    .wgnj6bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,8 +137,92 @@
   }
 
   @media screen and (max-width: 768px) {
-    .kclu3menulist ul a {
+    .wgnj6menulist ul a {
       font-size: 14px;
+    }
+  }
+
+
+  #content {
+    justify-content: start;
+  }
+  .z7sbc {
+    display: flex;
+    width: var(--max);
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .z7sbc-menu {
+    width: 220px;
+    background-color: --menubgcolor--;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .z7sbc-menu > a {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .z7sbc-menu > a:hover,
+  .z7sbc-menu > .active {
+    background-color: #1e3046;
+    color: #fff;
+  }
+  .z7sbc-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .z7sbc-title {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .z7sbc-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/page/kalitepolitikamiz/bg/{{bgimg}}");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  .z7sbc-title span {
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+  }
+  @media screen and (max-width: 1024px) {
+    .z7sbc {
+      flex-direction: column;
+      width: calc(100% - 10px);
+      padding: 5px;
+    }
+    .z7sbc-menu {
+      display: none;
+    }
+    .z7sbc-body {
+      width: 100%;
     }
   }
 
