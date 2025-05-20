@@ -1,5 +1,5 @@
 
-  .zavbo {
+  .m99o0 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .zavbotitle {
+  .m99o0title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .zavbotitlebody {
+  .m99o0titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zavbotitlebodytitle {
+  .m99o0titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zavbotitlebodylang {
+  .m99o0titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zavbotitlebodylang ul {
+  .m99o0titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zavbobody {
+  .m99o0body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .zavbomenu {
+  .m99o0menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .zavbomenulist {
+  .m99o0menulist {
     width: calc(100% - 20px);
     background-color: #d2b467;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .zavbomenubody {
+  .m99o0menubody {
     width: 100%;
     background-color: #d2b467;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .zavbomenulist ul {
+  .m99o0menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .zavbomenulist ul a {
+  .m99o0menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .zavbomenulist ul a:hover {
+  .m99o0menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zavbomenulistactive {
+  .m99o0menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .zavbomenulistbody {
+  .m99o0menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .zavbobodylogo {
+    .m99o0bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .zavbomenu {
+    .m99o0menu {
       overflow-x: auto;
     }
 
-    .zavbomenulist ul {
+    .m99o0menulist ul {
       flex-direction: row;
     }
 
-    .zavbobodylogo {
+    .m99o0bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .zavbomenulist ul a {
+    .m99o0menulist ul a {
       font-size: 14px;
     }
   }
