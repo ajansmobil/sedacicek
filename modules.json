@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Menü ",
+      "path": "menu-2",
+      "local": "header",
+      "category": "menu",
+      "desing": {
+        "logo": "logo.png",
+        "bgcolor": "#694a00"
+      },
+      "id": "dxatt9"
+    },
+    {
+      "index": 1,
+      "name": "Footer 1",
+      "path": "footer-1",
+      "local": "footer",
+      "category": "footer",
+      "desing": {
+        "bgcolor": "#694a00",
+        "color": "#fff"
+      },
+      "id": "g83khf"
+    },
+    {
+      "index": 2,
+      "name": "Maps",
+      "path": "map",
+      "local": "body",
+      "category": "map",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#fff",
+        "color": "#1e3046",
+        "img": "map.png",
+        "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x1531e1a88edd328f:0xa5ca684788b3eb0e?sa=X&ved=1t:8290&hl=tr&ictx=111"
+      },
+      "id": "tynxes"
+    },
+    {
+      "index": 3,
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "desing": {
+        "color": "#1e3046",
+        "name": {
+          "tr": "Bize Ulaşın"
+        },
+        "margin": "30px 0px 30px 0px"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "0542 342 17 50",
+          "url": "tel:05423421750"
+        },
+        {
+          "icon": "map",
+          "text": "Güneykent Mah. Müzeyyen Erkul Caddesi Şamcı Apartmanı Altı, 27100 Şahinbey/Gaziantep"
+        }
+      ],
+      "id": "bhayux"
+    },
+    {
+      "index": 4,
+      "name": "Sayfa Listesi Whatsapp",
+      "path": "page-list-Search-2",
+      "local": "body",
+      "category": "page-list",
+      "desing": {
+        "page": "products",
+        "size": 4,
+        "number": "905423421750",
+        "color": "#333"
+      },
+      "id": "qgumun"
+    },
+    {
+      "index": 5,
+      "name": "Page Desing 2",
+      "path": "page-desing-3",
+      "local": "body",
+      "category": "page",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "category": "kurumsal"
+      },
+      "id": "qt0ejp"
+    }
+  ]
+}

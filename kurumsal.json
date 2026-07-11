@@ -1,0 +1,243 @@
+{
+  "name": "Kurumsal",
+  "path": "kurumsal",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Kurumsal"
+      },
+      "status": "play",
+      "id": "kurumsal",
+      "path": "kurumsal",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 0,
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 1,
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Misyon"
+      },
+      "status": "play",
+      "id": "misyon",
+      "path": "misyon",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 2,
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Vizyon"
+      },
+      "status": "play",
+      "id": "vizyon",
+      "path": "vizyon",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 3,
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kalite Politikamız"
+      },
+      "status": "play",
+      "id": "kalitepolitikamiz",
+      "path": "kalite-politikamiz",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 4,
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Gizlilik Politikası"
+      },
+      "status": "play",
+      "id": "gizlilikpolitikasi",
+      "path": "gizlilik-politikasi",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 5,
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kişisel Veriler"
+      },
+      "status": "play",
+      "id": "kisiselveriler",
+      "path": "kisisel-veriler",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 6,
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kullanıcı Hakları"
+      },
+      "status": "play",
+      "id": "kullanicahaklari",
+      "path": "kullanici-haklari",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 7,
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Yasal Uyarı"
+      },
+      "status": "play",
+      "id": "yasaluyari",
+      "path": "yasal-uyari",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 8,
+      "desc": {}
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [
+      "qt0ejp"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "body": false
+  }
+}

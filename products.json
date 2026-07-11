@@ -1,0 +1,183 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Kırmızı Gül Buketi"
+      },
+      "status": "play",
+      "category": "Sevgiliye Çiçek",
+      "id": "g4tzlsdanl",
+      "url": "kirmizi-gul-buketi",
+      "path": "kirmizi-gul-buketi",
+      "keyword": {
+        "tr": "kırmızı gül, gül buketi, sevgililer günü"
+      },
+      "description": {
+        "tr": "12 adet kırmızı gülden oluşan lüks buket"
+      },
+      "spot": {
+        "tr": "Sevgililer gününe özel"
+      },
+      "index": 0,
+      "icon": "flower",
+      "img": "yvdxb.png"
+    },
+    {
+      "name": {
+        "tr": "Kutuda Gül"
+      },
+      "status": "play",
+      "category": "Kutuda Çiçek",
+      "id": "hxvr2wp7ct",
+      "url": "kutuda-gul",
+      "path": "kutuda-gul",
+      "keyword": {
+        "tr": "kutuda gül, kutuda çiçek, hediye"
+      },
+      "description": {
+        "tr": "Şık kutuda kırmızı güller"
+      },
+      "spot": {
+        "tr": "Şık kutu tasarımı"
+      },
+      "index": 1,
+      "icon": "flower",
+      "img": "nj8iz.png"
+    },
+    {
+      "name": {
+        "tr": "Lilyum Buketi"
+      },
+      "status": "play",
+      "category": "Çiçek Buketi",
+      "id": "eo9htdsh00",
+      "url": "lilyum-buketi",
+      "path": "lilyum-buketi",
+      "keyword": {
+        "tr": "lilyum, beyaz çiçek, buket"
+      },
+      "description": {
+        "tr": "Beyaz lilyumlardan oluşan zarif buket"
+      },
+      "spot": {
+        "tr": "Zarif ve sade"
+      },
+      "index": 2,
+      "icon": "flower",
+      "img": "v94rv.png"
+    },
+    {
+      "name": {
+        "tr": "Vazoda Pembe Gül"
+      },
+      "status": "play",
+      "category": "Vazoda Çiçek",
+      "id": "ffz39zvm7n",
+      "url": "vazoda-pembe-gul",
+      "path": "vazoda-pembe-gul",
+      "keyword": {
+        "tr": "vazoda çiçek, pembe gül, masa çiçeği"
+      },
+      "description": {
+        "tr": "Vazoda sunulan taze pembe güller"
+      },
+      "spot": {
+        "tr": "Dekoratif vazo"
+      },
+      "index": 3,
+      "icon": "flower",
+      "img": "yp1zi.png"
+    },
+    {
+      "name": {
+        "tr": "Orkide"
+      },
+      "status": "play",
+      "category": "Orkide",
+      "id": "bdvw3ewk0n",
+      "url": "orkide",
+      "path": "orkide",
+      "keyword": {
+        "tr": "orkide, saksı çiçeği, ev çiçeği"
+      },
+      "description": {
+        "tr": "Beyaz orkide saksı çiçeği"
+      },
+      "spot": {
+        "tr": "Yeni sezon"
+      },
+      "index": 4,
+      "icon": "flower",
+      "img": "o794s.png"
+    },
+    {
+      "name": {
+        "tr": "Oyuncak ve Çiçek"
+      },
+      "status": "play",
+      "category": "Oyuncak & Çiçekler",
+      "id": "ut754vnal8",
+      "url": "oyuncak-cicek",
+      "path": "oyuncak-cicek",
+      "keyword": {
+        "tr": "oyuncak, çiçek, hediye"
+      },
+      "description": {
+        "tr": "Peluş oyuncak ve çiçek aranjmanı"
+      },
+      "spot": {
+        "tr": "Hediye paketi"
+      },
+      "index": 5,
+      "icon": "flower",
+      "img": "xx1w5.png"
+    },
+    {
+      "name": {
+        "tr": "İsteme Çiçekleri"
+      },
+      "status": "play",
+      "category": "İsteme Çiçekleri",
+      "id": "yyfqoym8dh",
+      "url": "isteme-cicekleri",
+      "path": "isteme-cicekleri",
+      "keyword": {
+        "tr": "isteme çiçeği, özel gün, nişan"
+      },
+      "description": {
+        "tr": "İsteme ve söz merasimleri için özel çiçekler"
+      },
+      "spot": {
+        "tr": "Özel tasarım"
+      },
+      "index": 6,
+      "icon": "flower",
+      "img": "xkdyt.png"
+    },
+    {
+      "name": {
+        "tr": "Çelenk ve Ferforje"
+      },
+      "status": "play",
+      "category": "Çelenk & Ferforje",
+      "id": "yyfqoym8de",
+      "url": "celenk-ferforje",
+      "path": "celenk-ferforje",
+      "keyword": {
+        "tr": "çelenk, ferforje, açılış çiçeği"
+      },
+      "description": {
+        "tr": "Açılış ve törenler için çelenk ve ferforje aranjmanları"
+      },
+      "spot": {
+        "tr": "Törenlere özel"
+      },
+      "index": 7,
+      "icon": "flower",
+      "img": "ywbit.png"
+    }
+  ],
+  "modulestatus": {
+    "img": true
+  }
+}

@@ -1,6 +1,8 @@
 <nav>
   <div href="/" class="menu">
-    <a href="/" class="website_name"><img src="/img/logo.png" width="300" alt="{{web-name}} Logo" /></a>
+    <a href="/" class="website_name"
+      ><img src="/img/logo.png?v=rs7kr" width="300" alt="Seda Çiçek Dekor Logo"
+    /></a>
   </div>
 </nav>
 <section class="wrapper">
@@ -34,10 +36,9 @@
     <div class="text">
       <article>
         <p>
-          Uh oh! Looks like you got lost. <br />Go back to the homepage if you
-          dare!
+          Üzgünüz! Aradığınız sayfa bulunamadı. <br />Ana sayfaya dönmek için tıklayın.
         </p>
-        <a href="/">Home Page</a>
+        <a href="/tr/">Ana Sayfa</a>
       </article>
     </div>
   </div>
@@ -477,7 +478,6 @@
   }
 
   @media screen and (max-width: 799px) {
-
     .wrapper .container .one,
     .wrapper .container .two,
     .wrapper .container .three,
@@ -493,7 +493,6 @@
   }
 
   @media screen and (max-height: 660px) {
-
     .wrapper .container .one,
     .wrapper .container .two,
     .wrapper .container .three,
@@ -577,6 +576,50 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  
+  [dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+  }
+
+  [dir="rtl"] nav .menu {
+    direction: rtl;
+  }
+
+  [dir="rtl"] .wrapper .container .text article {
+    text-align: right;
+    direction: rtl;
+  }
+
+  [dir="rtl"] .wrapper .container .text article p {
+    text-align: right;
+  }
+
+  [dir="rtl"] nav .menu .menu_links .link {
+    margin-right: 0;
+    margin-left: 50px;
+  }
+
+  [dir="rtl"] nav .menu .menu_links .link:last-child {
+    margin-left: 0;
+  }
+
+  [dir="rtl"] nav .menu .menu_links .link:before {
+    left: auto;
+    right: 100%;
+  }
+
+  [dir="rtl"] nav .menu .menu_links .link:hover:before {
+    left: auto;
+    right: 0;
+  }
+
+  [dir="rtl"] .wrapper .container .text article {
+    left: auto;
+    right: 50%;
+    transform: translateX(50%);
   }
 
   .wrapper .container .text article button:hover {
@@ -773,6 +816,18 @@
   }
 </style>
 <script>
+  setTimeout(function() {
+    var currentPath = window.location.pathname;
+    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
+    var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+    var currentLang = langMatch ? langMatch[1] : '';
+    if (rtlLanguages.indexOf(currentLang) !== -1) {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+    }
+  }, 100);
+
   window.location.href = "/";
   setTimeout(function () {
     window.location.href = "/";

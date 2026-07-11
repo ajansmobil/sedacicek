@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Kurumsal"
+      },
+      "status": "play",
+      "category": "",
+      "id": "k3tk7qlg95",
+      "externalUrl": "",
+      "path": "kurumsal",
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "icon": "home"
+    },
+    {
+      "name": {
+        "tr": "İletişim"
+      },
+      "status": "play",
+      "category": "",
+      "id": "tmi2m8xiht",
+      "externalUrl": "",
+      "path": "iletisim",
+      "keyword": {
+        "tr": ""
+      },
+      "description": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "bhayux",
+          "tynxes"
+        ],
+        "footer": []
+      }
+    }
+  ],
+  "modulestatus": {
+    "page": true,
+    "body": true
+  }
+}
