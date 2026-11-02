@@ -8,7 +8,29 @@
       "category": "menu",
       "desing": {
         "logo": "logo.png",
-        "bgcolor": "#694a00"
+        "bgcolor": "#694a00",
+        "color": "#ffffff",
+        "activebgcolor": "#ffffff",
+        "activecolor": "#000000",
+        "height": "100px",
+        "ariaToggle": {
+          "tr": "Menüyü aç/kapat",
+          "en": "Toggle menu",
+          "ar": "تبديل القائمة"
+        },
+        "ariaClose": {
+          "tr": "Menüyü kapat",
+          "en": "Close menu"
+        },
+        "logobg": "transparent",
+        "logoborder": "none",
+        "logoradius": "0",
+        "logopad": "0",
+        "logopadmobil": "0",
+        "logomaxh": "100px",
+        "logoimg": "",
+        "langcolor": "currentColor",
+        "langbg": "transparent"
       },
       "id": "dxatt9"
     },
@@ -20,7 +42,14 @@
       "category": "footer",
       "desing": {
         "bgcolor": "#694a00",
-        "color": "#fff"
+        "color": "#fff",
+        "stil": "",
+        "showlang": true,
+        "showsocial": true,
+        "social": [],
+        "langcolor": "",
+        "img": "",
+        "imgwidth": "250px"
       },
       "id": "g83khf"
     },
@@ -33,10 +62,30 @@
       "desing": {
         "height": "200",
         "opacity": "0.5",
-        "backgroundcolor": "#fff",
+        "backgroundcolor": "#ffffff",
         "color": "#1e3046",
         "img": "map.png",
-        "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x1531e1a88edd328f:0xa5ca684788b3eb0e?sa=X&ved=1t:8290&hl=tr&ictx=111"
+        "url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x1531e1a88edd328f:0xa5ca684788b3eb0e?sa=X&ved=1t:8290&hl=tr&ictx=111",
+        "stil": "",
+        "externalUrl": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "badgeText": {
+          "tr": "Konumumuz",
+          "en": "Our Location",
+          "ar": "موقعنا"
+        },
+        "infoTitle": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "اتصل بنا"
+        },
+        "directions": {
+          "tr": "Yol tarifi al",
+          "en": "Get directions",
+          "ar": "احصل على الاتجاهات"
+        }
       },
       "id": "tynxes"
     },
@@ -51,7 +100,9 @@
         "name": {
           "tr": "Bize Ulaşın"
         },
-        "margin": "30px 0px 30px 0px"
+        "margin": "30px 0px 30px 0px",
+        "stil": "",
+        "linkcolor": "#1B3A6B"
       },
       "data": [
         {
@@ -76,7 +127,14 @@
         "page": "products",
         "size": 4,
         "number": "905423421750",
-        "color": "#333"
+        "color": "#333",
+        "name": {
+          "tr": "Hemen Teklif Al"
+        },
+        "waMessage": {
+          "tr": "Teklif Almak İstiyorum.",
+          "en": "I would like to get a quote."
+        }
       },
       "id": "qgumun"
     },
@@ -91,9 +149,35 @@
         "opacity": "0.5",
         "font-size": "50",
         "backgroundcolor": "#000",
-        "category": "kurumsal"
+        "category": "kurumsal",
+        "menu-active": "#1e3046",
+        "textcolor": "#ffffff",
+        "activetext": "#ffffff"
       },
       "id": "qt0ejp"
+    },
+    {
+      "name": "Page Desing 2",
+      "desing": {
+        "height": "100",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "textcolor": "#fff",
+        "category": "page"
+      },
+      "category": "page",
+      "description": "Page Desing 2 modülü. 2 farklı web projesinde kullanılmaktadır. İçerik sunumu ve görsel düzenleme için tasarlanmıştır.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "8lxo81",
+      "path": "page-text",
+      "local": "body",
+      "data": [],
+      "index": 6
     }
   ]
 }

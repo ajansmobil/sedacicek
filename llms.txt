@@ -1,0 +1,34 @@
+# Seda Çiçek Dekor
+
+> Seda Çiçek ve Dekor
+
+Web: https://sedacicekdekor/tr/
+
+## Sayfalar
+- [Seda Çiçek Dekor](https://sedacicekdekor/tr/): Seda Çiçek ve Dekor
+- [Kurumsal](https://sedacicekdekor/tr/kurumsal/)
+- [İletişim](https://sedacicekdekor/tr/iletisim/)
+- [Kurumsal](https://sedacicekdekor/tr/kurumsal/)
+- [Hakkımızda](https://sedacicekdekor/tr/hakkimizda/)
+- [Misyon](https://sedacicekdekor/tr/misyon/)
+- [Vizyon](https://sedacicekdekor/tr/vizyon/)
+- [Kalite Politikamız](https://sedacicekdekor/tr/kalite-politikamiz/)
+- [Gizlilik Politikası](https://sedacicekdekor/tr/gizlilik-politikasi/)
+- [Kişisel Veriler](https://sedacicekdekor/tr/kisisel-veriler/)
+- [Kullanıcı Hakları](https://sedacicekdekor/tr/kullanici-haklari/)
+- [Yasal Uyarı](https://sedacicekdekor/tr/yasal-uyari/)
+- [Çerez Politikası](https://sedacicekdekor/tr/cerez-politikasi/): Bu politika, Seda Çiçek Dekor tarafından işletilen sedacicekdekor internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…
+
+## Urunler
+- [Kırmızı Gül Buketi](https://sedacicekdekor/tr/kirmizi-gul-buketi/): 12 adet kırmızı gülden oluşan lüks buket
+- [Kutuda Gül](https://sedacicekdekor/tr/kutuda-gul/): Şık kutuda kırmızı güller
+- [Lilyum Buketi](https://sedacicekdekor/tr/lilyum-buketi/): Beyaz lilyumlardan oluşan zarif buket
+- [Vazoda Pembe Gül](https://sedacicekdekor/tr/vazoda-pembe-gul/): Vazoda sunulan taze pembe güller
+- [Orkide](https://sedacicekdekor/tr/orkide/): Beyaz orkide saksı çiçeği
+- [Oyuncak ve Çiçek](https://sedacicekdekor/tr/oyuncak-cicek/): Peluş oyuncak ve çiçek aranjmanı
+- [İsteme Çiçekleri](https://sedacicekdekor/tr/isteme-cicekleri/): İsteme ve söz merasimleri için özel çiçekler
+- [Çelenk ve Ferforje](https://sedacicekdekor/tr/celenk-ferforje/): Açılış ve törenler için çelenk ve ferforje aranjmanları
+
+## Diger
+- [sitemap.xml](https://sedacicekdekor/sitemap.xml): tum URL listesi
+- [llms-full.txt](https://sedacicekdekor/llms-full.txt): sayfa govdeleri duz metin

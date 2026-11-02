@@ -227,6 +227,27 @@
       },
       "index": 8,
       "desc": {}
+    },
+    {
+      "id": "cerez-politikasi",
+      "name": {
+        "tr": "Çerez Politikası"
+      },
+      "description": {
+        "tr": "Bu politika, Seda Çiçek Dekor tarafından işletilen sedacicekdekor internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…"
+      },
+      "path": "cerez-politikasi",
+      "icon": "cookie",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "8lxo81"
+        ],
+        "footer": []
+      },
+      "index": 9
     }
   ],
   "index": 1,
@@ -238,6 +259,7 @@
     "footer": []
   },
   "modulestatus": {
-    "body": false
+    "body": false,
+    "detail": true
   }
 }

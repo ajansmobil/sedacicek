@@ -24,11 +24,15 @@
       "index": 1,
       "desing": {
         "header": [],
-        "body": ["qt0ejp"],
+        "body": [
+          "qt0ejp"
+        ],
         "footer": []
       },
       "modulestatus": {
-        "body": false
+        "body": true,
+        "page": true,
+        "detail": true
       }
     },
     {
